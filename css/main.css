@@ -1,0 +1,391 @@
+ /* ==========================================================================
+   Mobile-First Layout
+   ========================================================================== */
+
+
+@font-face {
+  font-family: 'FoundersGrotesk-Regular';
+  src:  url(FoundersGrotesk-Regular.woff2) format('woff2'),
+        url(FoundersGrotesk-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-RegularItalic';
+  src:  url(FoundersGrotesk-RegularItalic.woff2) format('woff2'),
+        url(FoundersGrotesk-RegularItlic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Medium';
+  src:  url(FoundersGrotesk-Medium.woff2) format('woff2'),
+        url(FoundersGrotesk-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Bold';
+  src:  url(FoundersGrotesk-Bold.woff2) format('woff2'),
+        url(FoundersGrotesk-Bold.woff) format('woff');
+}
+
+body {
+    font-family: 'FoundersGrotesk-regular' , sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+    }
+
+.slogan {
+    font-family: 'foundersgrotesk-bold' , sans-serif;
+    margin: .5em;
+    margin-top: .85em;
+    font-size: 30px;
+    word-spacing: 1.6em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    position: relative;
+    transition: 1s;
+    }
+
+.largeheader {
+    font-family: 'foundersgrotesk-bold' , sans-serif;
+    position: relative;
+    transition: 1s;
+    margin: .85em .5em 1.79em .5em;
+    font-size: 30px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    }
+
+.symbolindex {
+    position: relative;
+    top: -54px;
+    left: 3px;
+    width: 10%;
+    align-content: center;
+    }
+
+.symbol {
+    position: relative;
+    top: -54px;
+    left: 3px;
+    width: 10%;
+    align-content: center;
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+.leftcol p {
+    margin: 3em 1em 1em 1em;
+    font-size: 1.4em;
+    }
+
+.centercol {
+    margin: 3%;
+    }
+
+.centercol h2 {
+    font-size: 2em;
+    margin-top: 6em;
+    margin-bottom: 3em;
+    }
+
+.centercol p {
+    line-height: 2em;
+    }
+
+.rightcol h2 {
+    margin: 2em 1em 1em 1em;
+    font-size: 2em;
+    letter-spacing: .01em;
+    word-spacing: .1em;
+    }
+
+.rightcol p {
+    margin: 0 2em 2em 2em;
+    text-align: left;
+    line-height: 1.5em;
+    }
+
+.gallery {
+    display: block;
+    margin: 3em 0 1em 0;
+    }
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    }
+
+.gallery a, p {
+    text-decoration: none;
+    color: #fff;
+    }
+
+.gallery p {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    display: block;
+    z-index: 100;
+    background-color: black;
+    padding: .5em .5em .2em .5em;
+    margin: 3em auto 1em 1.4em;
+    width: 280px;
+    }
+
+.hidden {
+    display: none;
+    }
+
+.expoclip  {
+    width: 100%;
+    }
+
+h2 {
+    font-family: 'foundersgrotesk-medium' , sans-serif;
+    }
+
+nav {
+    margin-top: -1.5em;
+    }
+
+nav ul li {
+    font-family: 'foundersgrotesk-medium' , sans-serif;
+    letter-spacing: .1em;
+    display: inline; 
+    margin: 1.6em;
+    }
+
+nav ul li a {
+    max-height: 0;
+    text-decoration: none;
+    color: yellow;
+    text-transform: uppercase;
+    text-shadow: 0 0 yellow;
+    transition: text-shadow 1s ease, color 2.3s ease;
+    }
+
+.me {
+    width: 80%;
+    height: 80%;
+    margin: 2em 2em 0 2em;
+    }
+
+form {
+    display: block;
+    margin: 1em 0 0 0;
+    }
+
+.input {
+    text-align-last: left;
+    margin: 0 1.5em 0 1.5em;
+    display: block;
+    }
+
+.upper {
+    text-align: left;
+    }
+
+input {
+    margin: .1em .5em 3em 0em;
+    padding: .5em .5em .5em .5em;
+    width: 95%;
+    }
+
+textarea {
+    padding: .5em .5em .5em .5em;
+    margin: .5em .5em .5em 0em;
+    width: 95%;
+    height: 10em;
+    }
+
+.button {
+    margin-left: 5.2em;
+    margin-top: 2em;
+    position: relative;
+    font-size: 1em;
+    background-color: #31ba9c;
+    padding: 0;
+    transform: scale(1, 1);
+    }
+
+.button:active {
+    background-color: #2dac90;
+    transform: scale(.9, .9);
+    }
+
+.input button {
+    text-decoration: none;
+    padding: .5em 3em .5em 3em;
+    display: block;
+    }
+
+footer {
+    font-family: 'foundersgrotesk-regularitalic' , sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin: 10em 0em 1em 0em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    
+    
+.container {
+    transition: all .5s ease;
+    }
+    
+    
+}
+/* ==========================================================================
+   Laptop and Above Styling
+   ========================================================================== */
+
+@media only screen and (min-width: 1200px) {
+    
+body {
+    font-size: 16px;
+    line-height: 1.2;
+    }
+    
+.slogan {
+    font-size: 6.6em;
+    position: relative;
+    }
+    
+.largeheader {
+    font-family: 'foundersgrotesk-bold' , sans-serif;
+    position: relative;
+    font-size: 8em;
+    margin: .66em 0 1em 0;
+    }
+    
+.symbolindex {
+    position: relative;
+    top: -180px;
+    left: 15px;
+    }
+    
+.symbol {
+    opacity: 0;
+    position: relative;
+    top: -180px;
+    left: 15px;
+    }
+  
+.leftcol {
+    float: left;
+    width: 49%;
+    }
+
+.leftcol p {
+    float: right;
+    width: 49%;
+    font-size: 3em;
+    margin: 3em 0 0 0;
+    width: 70%;
+    }
+
+.centercol h2 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 5em;
+    }
+
+.centercol p {
+    margin-top: 1em;
+    font-size: 2em;
+    }
+
+.rightcol {
+    float: right;
+    width: 49%;
+    margin: 3em 0 0 0;
+    }
+
+.rightcol h2 {
+    font-size: 4em;
+    }
+
+.rightcol p {
+    font-size: 1.2em;
+    }
+    
+.gallery {
+    display: inline-block;
+    }
+    
+.gallery p {
+    position: absolute;
+    display: inline-block;
+    margin: 3em auto 1em 1.36em;
+    }
+    
+.gallery img {
+    width: 33%;
+    display: inline-block;
+    }
+    
+.hidden {
+    display: none !important;
+    }
+    
+.me {
+    width: 90%;
+    height: 90%;
+    margin: 9em 0 2em 2em;
+    }    
+    
+nav {
+    font-size: 30px;
+    margin-top: -4em;
+    }
+    
+nav ul li {
+    margin: 4.6em;
+    }
+    
+nav ul li a:hover {
+    text-shadow: -1em -1em yellow;
+    color: #fff;
+    transition: text-shadow 1s ease, color .01ms ease;
+    }
+
+form {
+    margin: 1em 0 0em 0;
+    padding: 5em 0 0 0;
+    clear: both;
+    }
+
+.upper input[type=text], input[type=email] {
+    display: inline-block;
+    margin: .1em 4em 2.5em .5em;
+    padding: .5em .5em .5em .5em;
+    width: 23%;
+    }
+
+textarea {
+    padding: .5em .5em .5em .5em;
+    margin: .5em 0 .5em 0;
+    width: 100%;
+    height: 10em;
+    }
+    
+.button {
+    margin: 0 0 0 31em;    
+    }
+    
+footer {
+    clear: both;
+    }
+
+    } /*<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------Don't Delete***********/
+
+/*holy hell this code is a mess :(*/
